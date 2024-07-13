@@ -218,6 +218,13 @@ text-align: center;
         width: 100%;
     }
 
+    .feature-flowers{
+        margin: 0px;
+    }
+    .flowers-card{
+        width: 80%;
+    }
+
 
     .deli{
         flex-direction: column;
