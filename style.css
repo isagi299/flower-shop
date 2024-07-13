@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+.container{
+    background: rgba(229, 84, 115, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    margin-bottom: 11rem;
+}
+
+header .text{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 40%;
+    margin: 10rem 0;
+}
+
+.head-title{
+    color: rgb(39, 39, 39);
+font-size: 2.8rem;
+font-weight: 800;
+line-height: 96px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.head-des{
+    color: rgba(39, 39, 39, 0.6);
+font-size: 1.1rem;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.head-btn button{
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    padding: 20px 43px 20px 43px;
+    border: none;
+    color: rgb(255, 255, 255);
+font-size: 1.2rem;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+}
+
+.head-img{
+    width: 48%;
+    margin-top: 3rem;
+    
+    height: 100%;
+}
+
+.head-img img{
+    
+    width: 100%;
+}
+
+.feature h2{
+    color: rgb(39, 39, 39);
+font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 24px;
+}
+
+.feature>p{
+    margin: 0px auto;
+    width: 40%;
+    color: rgba(39, 39, 39, 0.6);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 48px;
+}
+
+.feature{
+    margin: 0px auto;
+    margin-bottom: 149px;
+    
+}
+.flowers-card{
+width: 25%;
+}
+.feature-flowers{
+
+    margin-left: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.feature-flowers .flower{
+
+/* width: 25%; */
+display: flex;
+justify-content: center;
+align-items: center;
+height: 550px;
+
+}
+
+
+
+.card1 .flower{
+    border-radius: 300px 300px 0px 0px;
+
+    background: rgba(167, 33, 98, 0.15);
+}
+.card2 .flower{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    
+}
+.card3 .flower{
+    border-radius: 300px 300px 0px 0px;
+
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.feature-flowers .flower img{
+    width: 100%;
+    margin-top: 70px;
+    height: 100%;
+
+}
+
+.feature-flowers .flower-des{
+    color: rgb(39, 39, 39);
+    /* width: 25%; */
+font-size: 24px;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: center;
+text-decoration-line: underline;
+margin-top: 32px;
+}
+
+
+
+    /* delivery  */
+    .deli{
+        width: 80%;
+        border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+        display: flex;
+        gap: 60px;
+        margin: 0px auto;
+        padding: 86px 100px;
+        margin-bottom: 128px;
+    }
+    .deli-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .deli-des{
+        color: rgba(39, 39, 39, 0.8);
+font-size: 24px;
+font-weight: 600;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: center;
+    }
+
+
+@media screen and (max-width:576px) {
+    .container{
+        flex-direction: column-reverse;
+
+    }
+
+    header .text{
+        width: 100%;
+        margin: 2rem;
+        padding: 1rem;
+    }
+
+    .head-title{
+        font-size: 2rem;
+    }
+
+    .head-btn{
+        text-align: center;
+    
+    }
+
+    /* feature  */
+
+    .feature{
+        margin-bottom: 128px;
+    }
+    .feature-flowers .flower{
+        height: auto;
+    }
+
+    .feature-flowers{
+        flex-direction: column;
+    }
+
+    .feature>p{
+        width: 100%;
+    }
+
+
+    .deli{
+        flex-direction: column;
+    }
+
+
+
+}
+
