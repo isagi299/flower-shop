@@ -179,6 +179,203 @@ letter-spacing: 0%;
 text-align: center;
     }
 
+    /* discount  */
+    .discount{
+        border-radius: 8px;
+        background: rgba(229, 84, 115, 0.05);
+        display: flex;
+        gap: 100px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 128px;
+    }
+
+    .discount-text{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .discount-title{
+font-size: 30px;
+font-weight: 800;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+    }
+
+    span{
+        color:  rgb(229, 84, 115);;
+    }
+    .discount-des{
+        color: rgba(39, 39, 39, 0.6);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+    }
+
+    .discount-btn button{
+        padding: 20px 43px 20px 43px;
+        border-radius: 8px;
+
+background: rgb(229, 84, 115);
+color: rgb(255, 255, 255);
+font-size: 20px;
+border: none;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+    }
+
+
+/* instragram  */
+
+.instragram{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 128px;
+}
+
+.instra-title{
+    color: rgb(39, 39, 39);
+font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.instra-des{
+    width: 40%;
+    color: rgba(39, 39, 39, 0.6);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.instra-photo{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* deals  */
+.deal{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 122px 250px;
+    margin-bottom: 128px;
+
+}
+
+.deal-title{
+    color: rgb(39, 39, 39);
+font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 20px;
+}
+
+.deal-des{
+    color: rgba(39, 39, 39, 0.6);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 48px;
+}
+
+.deal-sub{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.deal-email{
+    width: 80%;
+}
+input[type='email']{
+    border-radius: 8px;
+
+background: rgb(255, 255, 255);
+width: 100%;
+padding: 20px;
+border: none;
+}
+
+.deal-btn button{
+    color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+padding: 18px 31px;
+border: none;
+border-radius: 8px;
+
+background: rgb(229, 84, 115);
+}
+
+footer{
+    background: rgb(17, 16, 16);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    padding: 128px 0px;
+}
+
+footer h2{
+    color: white;
+font-size: 48px;
+font-weight: 800;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.footer-des{
+    color: rgba(255, 255, 255, 0.9);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+width: 40%;
+}
+
+.footer-foot{
+    color: rgba(255, 255, 255, 0.4);
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+}
 
 @media screen and (max-width:576px) {
     .container{
@@ -230,7 +427,50 @@ text-align: center;
         flex-direction: column;
     }
 
+    .discount{
+        flex-direction: column-reverse;
+        gap: 35px;
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
 
+    .discount-text{
+        width: 100%;
+        gap: 17px;
+    }
 
+    .discount-title{
+        font-size: 25px;
+        width: 87%;
+    }
+
+    .instra-photo{
+        flex-direction: column;
+    }
+
+    .instra-des{
+        width: 100%;
+    }
+
+    .deal{
+        background-position: 0%;
+        padding: 100px 0px;
+        border-radius: 10px;
+    }
+
+    .deal-sub{
+        flex-direction: column;
+        /* width: 100%; */
+
+    }
+    input[type='email']{
+        /* padding: 20px 150px 20px 20px;
+        width: 90%;
+        display: block; */
+    }
+
+    .footer-des{
+        width: 100%;
+    }
 }
 
